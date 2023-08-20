@@ -1,0 +1,49 @@
+{ "name" : "amqp"
+, "description" : "AMQP driver for node"
+, "keywords" : [ "amqp" ]
+, "version" : "0.2.7"
+, "author" : { "name" : "Ryan Dahl" }
+, "contributors" :
+  [ { "name" : "Vasili Sviridov" }
+  , { "name" : "Theo Schlossnagle" }
+  , { "name" : "Vincent Desjardins" }
+  , { "name" : "Liang-Chi Hsieh" }
+  , { "name" : "Tim Baga" }
+  , { "name" : "Stéphane Alnet" }
+  , { "name" : "Alen Mujezinovic" }
+  , { "name" : "Michael Bridgen" }
+  , { "name" : "Chris Bond" }
+  , { "name" : "Andrei Vereha" }
+  , { "name" : "Mike Bardzinski" }
+  , { "name" : "James Carr" }
+  , { "name" : "David Barshow" }
+  , { "name" : "Jason Pincin" }
+  , { "name" : "Carl Hörberg" }
+  ]
+, "repository" :
+  { "type" : "git"
+  , "url" : "git://github.com/postwait/node-amqp.git"
+  }
+, "bugs" :
+  { "url" : "http://github.com/postwait/node-amqp/issues"
+  }
+, "main" : "./amqp"
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
+    }
+  ]
+, "dependencies" : 
+  {
+    "lodash": "^4.0.0"
+  }
+, "devDependencies" :
+  {
+    "optimist": "~0.6.0"
+  , "longjohn": "~0.2.1"
+  }
+, "scripts" :
+  {
+    "test": "make test"
+  }
+}
